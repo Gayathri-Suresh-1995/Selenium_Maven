@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="G:/Selenium_Maven">
+        <classes>
+            <class name="Maven_Selenium_for_Ajio.AjioProject">
+                <methods>
+                    <include name="searchJacket"/>
+                    <include name="searchSmartPhone"/>
+                    <include name="addToCart"/>
+                    <include name="verifyMenu"/>
+                    <include name="SortByLowToHigh"/>
+                    <include name="SortByHighToLow"/>
+                    <include name="verifyMenuItemsforMen"/>
+                    <include name="verifyFooter"/>
+                    <include name="verifyReturnPolicy"/>
+                    <include name="verifyFAQ"/>
+                    <include name="filterItems"/>
+                    <include name="searchPumaBrand"/>
+                    <include name="searchAdidasBrand"/>
+                    <include name="verifyURL"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
